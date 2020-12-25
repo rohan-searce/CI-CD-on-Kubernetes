@@ -108,7 +108,7 @@ spec:
                 dir ('jenkins-app') {
                     container('python-382'){
                         sh 'python -v'
-                        sh 'python app.yml'
+                        sh 'python app.py'
                     }
                 }  
             }
